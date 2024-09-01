@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/neutra-text-alt');
+
+body {
+  font-family: 'Neutra Text';
+  background-color: #fff;
+}
+
+h1 {
+  color: #322625;
+}
+
+.shadow {
+  text-shadow: 4px 3px 2px #fdc936, -1px 4px 1px #fdc936;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #322625;
+  padding: 8px;
+  text-align: left;
+}
+
+.header-nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+thead {
+  background-color: #c0e3e5;
+}
+
+td {
+  background-color: #fff;
+}
+
+.gray-row td {
+  background-color: #ebebeb;
+}
+
+button {
+  font-family: 'Neutra Text';
+  margin-bottom: 20px;
+  padding: 8px;
+  border: none;
+  font-size: 15pt;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.search-box {
+  font-family: 'Neutra Text';
+  display: flex;
+}
+
+.box {
+  font-family: 'Neutra Text';
+  margin-bottom: 20px;
+  padding: 8px;
+  border: none;
+  font-size: 15pt;
+}
+
+label {
+  padding-left: 15px;
+  font-size: 15pt;
+}
+
+select {
+  border: none;
+}
+
+.boarder-shadow {
+  border-left: #dfdcdc;
+  border-right: #dfdcdc;
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 15pt;
+}
+
+.pagination {
+  margin-top: 50px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
